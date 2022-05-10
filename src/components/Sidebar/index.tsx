@@ -120,6 +120,7 @@ const Sidebar = () => {
 
                     {dropdownVisible && (
                       <div className={styles.dropdown}>
+                        <div className={styles.line1} />
                         {x.dropdown?.map((y: any) => (
                           <NavLink
                             to={y.url}
@@ -127,7 +128,7 @@ const Sidebar = () => {
                               isActive ? styles.itemIsActive : styles.item
                             }
                           >
-                            <div className={styles.line} />
+                            <div className={styles.line2} />
                             {y.title}
                           </NavLink>
                         ))}
