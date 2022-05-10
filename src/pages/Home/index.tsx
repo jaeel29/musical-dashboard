@@ -6,9 +6,6 @@ const Home = () => {
   return (
     <div className={cn(styles.home)}>
       <h1>Home Page</h1>
-
-
-      
     </div>
   );
 };
