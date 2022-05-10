@@ -9,6 +9,7 @@ import FavoritesIcon from 'assets/icons/FavoritesIcon';
 import SettinngsIcon from 'assets/icons/SettingsIcon';
 import ArrowDown from 'assets/icons/ArrowDown';
 import cn from 'classnames';
+import Avatar from 'components/UI/Avatar';
 
 const navigation: any = [
   {
@@ -141,6 +142,17 @@ const Sidebar = () => {
           </div>
         ))}
       </nav>
+
+      <div className={styles.userInfo}>
+        <div className={styles.avatar}>
+          <Avatar src={'/images/avatar.png'} />
+        </div>
+
+        <div className={styles.titles}>
+          <h6>Khawla Karmaoui</h6>
+          <p>khawlakarmaoui@gmail.com</p>
+        </div>
+      </div>
     </div>
   );
 };
