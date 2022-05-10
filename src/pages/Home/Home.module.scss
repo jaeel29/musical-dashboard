@@ -5,10 +5,24 @@
   background: $n;
   color: #020202;
   margin-left: -40px;
+  height: calc(100% - 120px);
+  // outline: 2px solid red;
 
   .body {
     height: 100%;
-    margin-left: 40px;
-    padding: 24px;
+    padding: 24px 24px 0;
+    display: flex;
+    flex: 1;
+    height: 100%;
+
+    .left {
+      background-color: lightgreen;
+      flex: 1;
+    }
+
+    .right {
+      background-color: lightpink;
+      flex: 0.5;
+    }
   }
 }

@@ -145,7 +145,7 @@ const Sidebar = () => {
 
       <div className={styles.userInfo}>
         <div className={styles.avatar}>
-          <Avatar src={'/images/avatar.png'} />
+          <Avatar src={'/images/avatar.png'} dot />
         </div>
 
         <div className={styles.titles}>

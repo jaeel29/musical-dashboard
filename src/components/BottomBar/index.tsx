@@ -1,9 +1,16 @@
+import Avatar from 'components/UI/Avatar';
 import styles from './BottomBar.module.scss';
 
 const BottomBar = () => {
   return (
     <div className={styles.bottomBar}>
-      <h1>BottomBar</h1>
+      <div className={styles.highlitedMusic}>
+        <Avatar src={'/images/avatar.png'} highlight />
+        <div className={styles.titles}>
+          <h6>Let's kill this love</h6>
+          <p>Blackpink</p>
+        </div>
+      </div>
     </div>
   );
 };

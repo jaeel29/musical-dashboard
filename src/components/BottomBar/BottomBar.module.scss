@@ -1,9 +1,47 @@
+@import '../../styles/helpers';
+
 .bottomBar {
-  border: 2px solid red;
   background-color: white;
   position: fixed;
   height: 120px;
   bottom: 0;
   right: 0;
   left: 280px;
+  padding: 24px 48px;
+  border-top: 2px solid #d9fee1;
+  // border: 2px solid red;
+
+  display: flex;
+  align-items: center;
+
+  .highlitedMusic {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    .titles {
+      flex: 1;
+
+      h6 {
+        font-size: 16px;
+        color: $n8;
+        font-weight: 500;
+        margin-bottom: 6px;
+        text-transform: uppercase;
+      }
+
+      p {
+        font-size: 14px;
+        color: $n4;
+
+        word-wrap: break-word;
+
+        width: 85%;
+
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
 }

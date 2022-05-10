@@ -5,7 +5,9 @@ const Home = () => {
   return (
     <div className={styles.home}>
       <div className={styles.body}>
-        <h1>Home Page</h1>
+        <div className={styles.left}>Left</div>
+
+        <div className={styles.right}>Right</div>
       </div>
 
       <BottomBar />
