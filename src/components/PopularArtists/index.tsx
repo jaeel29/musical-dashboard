@@ -3,6 +3,8 @@ import styles from './PopularArtists.module.scss';
 import popularArtists from 'config/popularArtists.json';
 
 const PopularArtists = () => {
+  console.log(popularArtists);
+
   return (
     <div className={styles.popularArtists}>
       <div className={styles.header}>
