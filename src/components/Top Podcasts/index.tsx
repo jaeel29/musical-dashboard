@@ -1,12 +1,15 @@
 import styles from './TopPodcasts.module.scss';
 import topPodcasts from 'config/TopPodcasts.json';
 import Icon from 'components/UI/Icon';
+import cn from 'classnames';
 
 const TopPodcasts = () => {
   return (
     <div className={styles.topPodcasts}>
       <div className={styles.header}>
-        <h2 className={'heading-2'}>Top Podcasts</h2>
+        <h2 className={cn('heading-2', styles['heading2'])}>Top Podcasts</h2>
+
+        <button className='seeAll-btn'>See all</button>
       </div>
 
       <div className={styles.body}>

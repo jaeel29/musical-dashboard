@@ -1,4 +1,4 @@
-import BottomBar from 'components/BottomBar';
+import BottomBar from 'layouts/BottomBar';
 import Sidebar from 'layouts/Sidebar';
 import { FC, ReactNode } from 'react';
 import styles from './LayoutPage.module.scss';

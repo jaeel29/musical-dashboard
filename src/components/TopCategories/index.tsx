@@ -1,12 +1,15 @@
 import styles from './TopCategories.module.scss';
 import topCategories from 'config/TopCategories.json';
 import Icon from 'components/UI/Icon';
+import cn from 'classnames';
 
 const TopCategories = () => {
   return (
     <div className={styles.topCategories}>
       <div className={styles.header}>
-        <h2 className={'heading-2'}>Top Categories</h2>
+        <h2 className={cn('heading-2', styles['heading2'])}>Top Categories</h2>
+
+        <button className='seeAll-btn'>See all</button>
       </div>
 
       <div className={styles.body}>

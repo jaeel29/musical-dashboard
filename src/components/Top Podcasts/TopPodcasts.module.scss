@@ -5,13 +5,17 @@
   overflow: auto;
 
   .header {
-    margin-bottom: 24px;
     height: 50px;
     display: flex;
     align-items: center;
+    margin-bottom: 24px;
 
-    h2 {
+    .heading2 {
       margin-bottom: 0;
+    }
+
+    button {
+      margin-left: auto;
     }
   }
 

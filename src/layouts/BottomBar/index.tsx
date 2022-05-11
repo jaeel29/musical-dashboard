@@ -11,6 +11,10 @@ const BottomBar = () => {
           <p>Blackpink</p>
         </div>
       </div>
+
+      <div className={styles.player}></div>
+      <div className={styles.playerHistogram}></div>
+      <div className={styles.volume}></div>
     </div>
   );
 };
