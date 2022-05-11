@@ -1,0 +1,14 @@
+.seeAll-btn {
+  padding: 8px 8px;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  color: $n3;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+
+  &:hover {
+    color: $n7;
+  }
+}

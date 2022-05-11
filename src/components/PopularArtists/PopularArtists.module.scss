@@ -1,4 +1,69 @@
-// .popularArtists {
-//   .header {
-//   }
-// }
+@import '../../styles/helpers';
+
+.popularArtists {
+  display: flex;
+  flex-direction: column;
+  // border: 2px solid blue;
+
+  .header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+
+    .heading2 {
+      margin-bottom: 0;
+    }
+
+    button {
+      margin-left: auto;
+    }
+  }
+
+  .artistsList {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    width: 100%;
+
+    scrollbar-width: none; // for Firefox
+
+    // for Chrome & Safari
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .artist {
+      flex-shrink: 0;
+      width: 240px;
+      height: 240px;
+      position: relative;
+      border-radius: 30px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: all 0.3s ease-out;
+
+      .image {
+        width: 100%;
+        height: 100%;
+      }
+
+      .name {
+        position: absolute;
+        left: 16px;
+        bottom: 16px;
+        padding: 16px 20px;
+        background-color: $n;
+        border-radius: 50px;
+        z-index: 10;
+        font-size: 16px;
+        transition: all 0.2s ease-out;
+
+        &:active {
+          transform: scale(0.9);
+          background-color: rgba($color: $n, $alpha: 0.9);
+        }
+      }
+    }
+  }
+}

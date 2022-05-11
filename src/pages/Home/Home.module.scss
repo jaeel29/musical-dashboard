@@ -1,27 +1,17 @@
 @import '../../styles/helpers';
 
 .home {
-  height: 100%;
-  background: $n;
-  color: #020202;
-  margin-left: -40px;
-  height: 100vh;
+  display: flex;
+  gap: 24px;
 
-  .body {
-    padding: 24px;
+  .left {
+    // flex-basis: calc(100% - 500px);
     flex: 1;
-    display: flex;
-    gap: 24px;
-    height: calc(100% - 120px);
-    overflow-y: auto;
+    overflow-x: hidden;
+  }
 
-    .left {
-      flex: 1 1 auto;
-    }
-
-    .right {
-      width: 500px;
-      flex-shrink: 0;
-    }
+  .right {
+    flex-shrink: 0;
+    width: 500px;
   }
 }

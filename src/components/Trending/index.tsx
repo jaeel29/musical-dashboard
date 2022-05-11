@@ -8,7 +8,7 @@ const Trending = () => {
       <div className={styles.header}>
         <h2 className={cn('heading-2', styles.heading2)}>Trending</h2>
 
-        <p>Arrows</p>
+        <button className='seeAll-btn'>Arrows</button>
       </div>
 
       <Card />

@@ -23,7 +23,7 @@ const navigation: any = [
       {
         title: 'Search',
         icon: <SearchIcon />,
-        url: '/contact',
+        url: '/search',
       },
       {
         title: 'Notifications',

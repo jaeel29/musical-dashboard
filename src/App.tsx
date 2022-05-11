@@ -1,5 +1,5 @@
-import LayoutPage from 'components/LayoutPage';
-import Contact from 'pages/Contact';
+import LayoutPage from 'layouts/LayoutPage';
+import Search from 'pages/Search';
 import Home from 'pages/Home';
 import { Route, Routes } from 'react-router-dom';
 import 'styles/app.scss';
@@ -17,10 +17,28 @@ function App() {
       />
 
       <Route
-        path='/contact'
+        path='/search'
         element={
           <LayoutPage>
-            <Contact />
+            <Search />
+          </LayoutPage>
+        }
+      />
+
+      <Route
+        path='/notifications'
+        element={
+          <LayoutPage>
+            <Search />
+          </LayoutPage>
+        }
+      />
+
+      <Route
+        path='/favorites'
+        element={
+          <LayoutPage>
+            <Search />
           </LayoutPage>
         }
       />
