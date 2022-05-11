@@ -1,0 +1,10 @@
+@import '../../styles/helpers';
+
+.topPodcasts {
+  .body {
+    height: 400px;
+    border: 2px solid $p1;
+    border-radius: 24px;
+    margin-bottom: 50px;
+  }
+}

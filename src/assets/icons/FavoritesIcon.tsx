@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 function FavoritesIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg width={24} height={24} fill='#fff' xmlns='http://www.w3.org/2000/svg' {...props}>

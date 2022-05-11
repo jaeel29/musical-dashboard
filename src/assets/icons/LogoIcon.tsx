@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 function LogoIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg width={41} height={41} fill='none' xmlns='http://www.w3.org/2000/svg' {...props}>

@@ -1,0 +1,20 @@
+.trending {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 48px;
+
+  .header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+    .heading2 {
+      margin-bottom: 0;
+    }
+
+    p {
+      margin-left: auto;
+    }
+  }
+}

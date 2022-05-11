@@ -1,0 +1,32 @@
+@import '../../../styles/helpers';
+
+.button {
+  background-color: $n8;
+  border-radius: 50px;
+  padding: 0 14px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 500;
+  color: $n;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.3s ease-out;
+
+  &:hover {
+    background-color: $n7;
+  }
+}
+
+.outline {
+  background-color: transparent;
+  border: 1px solid $n8;
+  color: $n8;
+  transition: all 0.3s ease-out;
+
+  &:hover {
+    background-color: $n8;
+    color: $n;
+  }
+}
