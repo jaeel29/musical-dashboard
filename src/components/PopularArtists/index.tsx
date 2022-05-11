@@ -1,6 +1,6 @@
 import cn from 'classnames';
 import styles from './PopularArtists.module.scss';
-import popularArtists from 'config/popularArtists.json';
+import popularArtists from 'config/PopularArtists.json';
 
 const PopularArtists = () => {
   console.log(popularArtists);

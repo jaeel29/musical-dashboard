@@ -1,5 +1,5 @@
 import styles from './TopPodcasts.module.scss';
-import topPodcasts from 'config/topPodcasts.json';
+import topPodcasts from 'config/TopPodcasts.json';
 import Icon from 'components/UI/Icon';
 
 const TopPodcasts = () => {

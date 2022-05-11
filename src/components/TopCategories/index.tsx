@@ -1,5 +1,5 @@
 import styles from './TopCategories.module.scss';
-import topCategories from 'config/topCategories.json';
+import topCategories from 'config/TopCategories.json';
 import Icon from 'components/UI/Icon';
 
 const TopCategories = () => {
