@@ -1,57 +1,71 @@
 [
   {
+    "id": "1",
     "name": "Adele",
     "image": "/images/Adele.jpg"
   },
   {
+    "id": "2",
     "name": "IU",
     "image": "/images/IU.jpg"
   },
   {
+    "id": "3",
     "name": "Black-Pink",
     "image": "/images/Black-Pink.jpg"
   },
   {
+    "id": "4",
     "name": "Adele",
     "image": "/images/Adele.jpg"
   },
   {
+    "id": "5",
     "name": "Adele",
     "image": "/images/Adele.jpg"
   },
   {
+    "id": "6",
     "name": "IU",
     "image": "/images/IU.jpg"
   },
   {
+    "id": "7",
     "name": "Black-Pink",
     "image": "/images/Black-Pink.jpg"
   },
   {
+    "id": "8",
     "name": "Adele",
     "image": "/images/Adele.jpg"
   },
   {
+    "id": "9",
     "name": "Black-Pink",
     "image": "/images/Black-Pink.jpg"
   },
   {
+    "id": "10",
     "name": "Adele",
     "image": "/images/Adele.jpg"
   },
   {
+    "id": "11",
     "name": "Adele",
     "image": "/images/Adele.jpg"
   },
   {
+    "id": "12",
     "name": "IU",
     "image": "/images/IU.jpg"
   },
   {
+    "id": "13",
     "name": "Black-Pink",
     "image": "/images/Black-Pink.jpg"
   },
   {
+    "id": "14",
     "name": "Adele",
     "image": "/images/Adele.jpg"
   }

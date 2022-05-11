@@ -10,8 +10,8 @@ const TopCategories = () => {
 
       <div className={styles.body}>
         <div className={styles.categories}>
-          {topCategories.map((category, index) => (
-            <div key={Math.random()} className={styles.category}>
+          {topCategories.map((category) => (
+            <div className={styles.category} key={category.id}>
               <div className={styles.imageContainer} style={{ backgroundColor: category.color }}>
                 <img src={category.image} alt={category.name} className={styles.image} />
               </div>
