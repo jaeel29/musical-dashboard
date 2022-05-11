@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "name": "Normal Gossip",
+    "image": "/images/podcasts/Normal-gossip.png",
+    "color": "#589EF3"
+  },
+  {
+    "id": "2",
+    "name": "Sorry about the Kids",
+    "image": "/images/podcasts/Sorry-about-the-Kids.png",
+    "color": "#84FF9D"
+  },
+  {
+    "id": "3",
+    "name": "This is dating",
+    "image": "/images/podcasts/This-is-dating.png",
+    "color": "#76FFAC"
+  },
+  {
+    "id": "4",
+    "name": "Wild boys",
+    "image": "/images/podcasts/Wild-boys.png",
+    "color": "#FDED80"
+  },
+  {
+    "id": "5",
+    "name": "Normal Gossip",
+    "image": "/images/podcasts/Normal-gossip.png",
+    "color": "#FE9C66"
+  },
+  {
+    "id": "6",
+    "name": "This is dating",
+    "image": "/images/podcasts/This-is-dating.png",
+    "color": "#B21165"
+  }
+]

@@ -1,5 +1,6 @@
 import styles from './TopCategories.module.scss';
-import topCategories from 'config/TopCategories.json';
+import topCategories from 'config/topCategories.json';
+import Icon from 'components/UI/Icon';
 
 const TopCategories = () => {
   return (
@@ -14,6 +15,10 @@ const TopCategories = () => {
             <div className={styles.category} key={category.id}>
               <div className={styles.imageContainer} style={{ backgroundColor: category.color }}>
                 <img src={category.image} alt={category.name} className={styles.image} />
+
+                <div className={styles.iconPlay}>
+                  <Icon name='play' fillPath='#020102' size={30} />
+                </div>
               </div>
 
               <span className={styles.name}>{category.name}</span>
