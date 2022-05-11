@@ -13,7 +13,7 @@ const PopularArtists = () => {
 
       <div className={styles.artistsList}>
         {PopularArtistsJson.map((artist, index) => (
-          <div className={styles.artist}>
+          <div className={styles.artist} key={Math.random()}>
             <img src={artist.image} alt={`${artist.name} artist`} className={styles.image} />
 
             <span className={styles.name}>{artist.name}</span>

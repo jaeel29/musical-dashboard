@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Jazz",
+    "image": "/images/categories/Jazz.png",
+    "color": "#FDED80"
+  },
+  {
+    "name": "K-POP",
+    "image": "/images/categories/K-pop.png",
+    "color": "#FF6756"
+  },
+  {
+    "name": "R&B",
+    "image": "/images/categories/R&B.png",
+    "color": "#8BFE94"
+  },
+  {
+    "name": "POP",
+    "image": "/images/categories/Pop.png",
+    "color": "#DAFFCA"
+  },
+  {
+    "name": "C-POP",
+    "image": "/images/categories/C-pop.png",
+    "color": "#FE9C66"
+  },
+  {
+    "name": "J-POP",
+    "image": "/images/categories/J-pop.png",
+    "color": "#D1EBFE"
+  }
+]

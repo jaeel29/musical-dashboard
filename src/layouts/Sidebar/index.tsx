@@ -2,7 +2,7 @@ import styles from './Sidebar.module.scss';
 import LogoIcon from 'assets/icons/LogoIcon';
 import { NavLink } from 'react-router-dom';
 import HomeIcon from 'assets/icons/HomeIcon';
-import { useState } from 'react';
+import { Fragment, useState } from 'react';
 import NotificationIcon from 'assets/icons/NotificationIcon';
 import SearchIcon from 'assets/icons/SearchIcon';
 import FavoritesIcon from 'assets/icons/FavoritesIcon';
@@ -88,13 +88,13 @@ const Sidebar = () => {
 
       <nav className={styles.nav}>
         {navigation.map((item: any, index: any) => (
-          <div className={styles.navItems}>
+          <div className={styles.navItems} key={Math.random()}>
             <h1 className={styles.titleMenu}>{item.title}</h1>
 
             <ul className={styles.listItems}>
               {item?.items?.map((x: any) =>
                 x.url ? (
-                  <li>
+                  <li key={Math.random()}>
                     <NavLink
                       to={x.url}
                       className={({ isActive }) => (isActive ? styles.itemIsActive : styles.item)}
@@ -104,7 +104,7 @@ const Sidebar = () => {
                     </NavLink>
                   </li>
                 ) : (
-                  <>
+                  <Fragment key={Math.random()}>
                     <li>
                       <button
                         className={cn(styles.itemBtn, { [styles.visible]: dropdownVisible })}
@@ -135,7 +135,7 @@ const Sidebar = () => {
                         ))}
                       </div>
                     )}
-                  </>
+                  </Fragment>
                 )
               )}
             </ul>
