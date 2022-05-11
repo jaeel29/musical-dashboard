@@ -13,42 +13,51 @@ import Avatar from 'components/UI/Avatar';
 
 const navigation: any = [
   {
+    id: '1',
     title: 'Menu',
     items: [
       {
+        id: '1-1',
         title: 'Home',
         icon: <HomeIcon />,
         url: '/',
       },
       {
+        id: '1-2',
         title: 'Search',
         icon: <SearchIcon />,
         url: '/search',
       },
       {
+        id: '1-3',
         title: 'Notifications',
         icon: <NotificationIcon />,
         url: '/notifications',
       },
       {
+        id: '1-4',
         title: 'Favorites',
         icon: <FavoritesIcon />,
         url: '/favorites',
       },
       {
+        id: '1-5',
         title: 'Settings',
         slug: 'settings',
         icon: <SettinngsIcon />,
         dropdown: [
           {
+            id: '1-5-1',
             title: 'Drafts',
             url: '/drafts',
           },
           {
+            id: '1-5-2',
             title: 'Drafts',
             url: '/drafts',
           },
           {
+            id: '1-5-3',
             title: 'Drafts',
             url: '/drafts',
           },
@@ -58,17 +67,21 @@ const navigation: any = [
   },
 
   {
+    id: '2',
     title: 'Playlist',
     items: [
       {
+        id: '2-1',
         title: 'Notifications',
         url: '/notifications',
       },
       {
+        id: '2-2',
         title: 'Favorites',
         url: '/favorites',
       },
       {
+        id: '2-3',
         title: 'Activities',
         url: '/promote',
       },
@@ -87,14 +100,14 @@ const Sidebar = () => {
       </div>
 
       <nav className={styles.nav}>
-        {navigation.map((item: any, index: any) => (
-          <div className={styles.navItems} key={Math.random()}>
+        {navigation.map((item: any) => (
+          <div className={styles.navItems} key={item.id}>
             <h1 className={styles.titleMenu}>{item.title}</h1>
 
             <ul className={styles.listItems}>
               {item?.items?.map((x: any) =>
                 x.url ? (
-                  <li key={Math.random()}>
+                  <li key={x.id}>
                     <NavLink
                       to={x.url}
                       className={({ isActive }) => (isActive ? styles.itemIsActive : styles.item)}
@@ -104,7 +117,7 @@ const Sidebar = () => {
                     </NavLink>
                   </li>
                 ) : (
-                  <Fragment key={Math.random()}>
+                  <Fragment key={x.id}>
                     <li>
                       <button
                         className={cn(styles.itemBtn, { [styles.visible]: dropdownVisible })}

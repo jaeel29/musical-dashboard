@@ -91,6 +91,8 @@
 
         .arrowBtn {
           margin-left: auto;
+          display: flex;
+          align-items: center;
 
           svg {
             transition: all 0.3s ease-out;
