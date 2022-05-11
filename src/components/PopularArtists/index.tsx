@@ -1,6 +1,6 @@
 import cn from 'classnames';
 import styles from './PopularArtists.module.scss';
-import popularArtistsJson from 'config/popularArtists.json';
+import popularArtists from 'config/popularArtists.json';
 
 const PopularArtists = () => {
   return (
@@ -12,7 +12,7 @@ const PopularArtists = () => {
       </div>
 
       <div className={styles.artistsList}>
-        {popularArtistsJson.map((artist) => (
+        {popularArtists.map((artist) => (
           <div className={styles.artist} key={artist.id}>
             <img src={artist.image} alt={`${artist.name} artist`} className={styles.image} />
 
