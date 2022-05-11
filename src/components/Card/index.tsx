@@ -13,12 +13,14 @@ const Card = () => {
         </div>
 
         <div className={styles.actionButtons}>
-          <Button>
+          <Button fill>
             <Icon name='play' fillPath='white' />
             <span>Play</span>
           </Button>
 
-          <Button outline>View Playlist</Button>
+          <Button outline>
+            <span>View Playlist</span>
+          </Button>
         </div>
       </div>
 
