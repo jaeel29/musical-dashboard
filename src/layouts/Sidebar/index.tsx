@@ -48,18 +48,18 @@ const navigation: any = [
         dropdown: [
           {
             id: '1-5-1',
-            title: 'Drafts',
-            url: '/drafts',
+            title: 'Account',
+            url: '/account',
           },
           {
             id: '1-5-2',
-            title: 'Drafts',
-            url: '/drafts',
+            title: 'Profile',
+            url: '/profile',
           },
           {
             id: '1-5-3',
-            title: 'Drafts',
-            url: '/drafts',
+            title: 'Upgrade to premium',
+            url: '/upgrade',
           },
         ],
       },
@@ -72,18 +72,18 @@ const navigation: any = [
     items: [
       {
         id: '2-1',
-        title: 'Notifications',
-        url: '/notifications',
+        title: 'Gala',
+        url: '/gala',
       },
       {
         id: '2-2',
-        title: 'Favorites',
-        url: '/favorites',
+        title: '3azzy 3ando Stylo',
+        url: '/dizzydros',
       },
       {
         id: '2-3',
-        title: 'Activities',
-        url: '/promote',
+        title: 'Lofy chill',
+        url: '/lofychill',
       },
     ],
   },

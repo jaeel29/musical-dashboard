@@ -100,9 +100,6 @@
         @include time();
       }
 
-      .histogram {
-      }
-
       .end {
         @include time();
         color: $n3;
