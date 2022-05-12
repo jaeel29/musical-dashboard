@@ -1,5 +1,11 @@
 @import '../../styles/helpers';
 
+@mixin time {
+  font-size: 14px;
+  font-weight: 500;
+  color: $n6;
+}
+
 .bottomBar {
   background-color: white;
   position: fixed;
@@ -8,7 +14,7 @@
   right: 0;
   left: 280px;
   z-index: 50;
-  padding: 24px 48px;
+  padding: 24px 64px;
   border-top: 2px solid #d9fee1;
   // border: 2px solid red;
 
@@ -20,7 +26,7 @@
   }
 
   .highlitedMusic {
-    border: 2px solid pink;
+    // border: 2px solid blue;
     display: flex;
     align-items: center;
     gap: 16px;
@@ -52,16 +58,112 @@
     }
   }
 
-  .player {
-    border: 2px solid red;
-    flex: 1;
+  .middle {
+    // border: 2px solid red;
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    flex: 2;
+
+    .player {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+
+      .pause {
+        width: 60px;
+        height: 60px;
+        background-color: $p1;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        &:hover {
+          background-color: $n5;
+        }
+      }
+    }
+
+    .playerHistogram {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      padding-right: 48px;
+
+      .start {
+        @include time();
+      }
+
+      .histogram {
+      }
+
+      .end {
+        @include time();
+        color: $n3;
+      }
+    }
   }
-  .playerHistogram {
-    border: 2px solid blue;
+
+  .volumeContainer {
+    // border: 2px solid green;
     flex: 1;
-  }
-  .volume {
-    border: 2px solid green;
-    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .volume {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      cursor: pointer;
+
+      &:hover {
+        .sliderVolume {
+          .active {
+            background-color: $p1;
+
+            .thumb {
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+
+    .sliderVolume {
+      position: relative;
+      width: 120px;
+      height: 4px;
+      border-radius: 10px;
+      background-color: $n2;
+
+      .active {
+        height: 100%;
+        width: 50%;
+        background-color: $n4;
+        position: relative;
+        border-radius: 10px;
+
+        .thumb {
+          // transition: all 0.3s ease-out;
+          position: absolute;
+          width: 14px;
+          height: 14px;
+          border-radius: 50%;
+          background-color: $n;
+          top: 50%;
+          right: 0;
+          transform: translateY(-50%);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.26);
+          opacity: 0;
+        }
+      }
+    }
   }
 }
