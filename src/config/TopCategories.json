@@ -1,14 +1,14 @@
 [
   {
     "id": "1",
-    "name": "Jazz",
-    "image": "/images/categories/Jazz.png",
+    "name": "Rap",
+    "image": "/images/categories/Rap.webp",
     "color": "#FDED80"
   },
   {
     "id": "2",
-    "name": "K-POP",
-    "image": "/images/categories/K-pop.png",
+    "name": "Jazz",
+    "image": "/images/categories/Jazz.png",
     "color": "#FF6756"
   },
   {
@@ -25,13 +25,13 @@
   },
   {
     "id": "5",
-    "name": "C-POP",
-    "image": "/images/categories/C-pop.png",
+    "name": "Anime",
+    "image": "/images/categories/Anime.jpeg",
     "color": "#FE9C66"
   },
   {
     "id": "6",
-    "name": "J-POP",
+    "name": "Arabic",
     "image": "/images/categories/J-pop.png",
     "color": "#D1EBFE"
   }

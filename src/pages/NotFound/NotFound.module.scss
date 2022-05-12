@@ -1,8 +1,48 @@
+@import '../../styles/helpers';
+
 .notFound {
-  border: 2px solid red;
   height: calc(100vh - 120px);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  // height: 100%;
+  gap: 36px;
+  // border: 2px solid red;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      font-size: 36px;
+      font-weight: 600;
+      color: $n8;
+    }
+
+    p {
+      font-size: 18px;
+      font-weight: 100;
+      color: $n3;
+      line-height: 26px;
+      text-align: center;
+    }
+
+    .link {
+      padding: 16px 20px;
+      background-color: $p1;
+      border-radius: 8px;
+      transition: all 0.3s ease-out;
+      text-decoration: none;
+      color: $n;
+      font-size: 16px;
+      margin-top: 12px;
+
+      &:hover {
+        background-color: $n7;
+      }
+    }
+  }
 }

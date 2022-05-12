@@ -1,72 +1,52 @@
 [
   {
     "id": "1",
-    "name": "Adele",
-    "image": "/images/artists/Adele.jpg"
+    "name": "Dizzy Dros",
+    "image": "/images/artists/Dizzy-dros.jpeg"
   },
   {
     "id": "2",
-    "name": "IU",
-    "image": "/images/artists/IU.jpg"
+    "name": "Elgrande Toto",
+    "image": "/images/artists/Elgrande-toto.jpeg"
   },
   {
     "id": "3",
-    "name": "Black-Pink",
-    "image": "/images/artists/Black-Pink.jpg"
+    "name": "Don Big",
+    "image": "/images/artists/Don-big.jpeg"
   },
   {
     "id": "4",
-    "name": "Adele",
-    "image": "/images/artists/Adele.jpg"
+    "name": "Lmorphine",
+    "image": "/images/artists/Lmorphine.jpg"
   },
   {
     "id": "5",
-    "name": "Adele",
-    "image": "/images/artists/Adele.jpg"
+    "name": "Saad Lamjarred",
+    "image": "/images/artists/Saad-lamjarred.jpeg"
   },
   {
     "id": "6",
-    "name": "IU",
-    "image": "/images/artists/IU.jpg"
+    "name": "Douzi",
+    "image": "/images/artists/Douzi.webp"
   },
   {
     "id": "7",
-    "name": "Black-Pink",
-    "image": "/images/artists/Black-Pink.jpg"
+    "name": "Kouz1",
+    "image": "/images/artists/Kouz1.jpeg"
   },
   {
     "id": "8",
-    "name": "Adele",
-    "image": "/images/artists/Adele.jpg"
+    "name": "Muslim",
+    "image": "/images/artists/Muslim.jpeg"
   },
   {
     "id": "9",
-    "name": "Black-Pink",
-    "image": "/images/artists/Black-Pink.jpg"
+    "name": "Shayfeen",
+    "image": "/images/artists/Shayfeen.jpg"
   },
   {
     "id": "10",
-    "name": "Adele",
-    "image": "/images/artists/Adele.jpg"
-  },
-  {
-    "id": "11",
-    "name": "Adele",
-    "image": "/images/artists/Adele.jpg"
-  },
-  {
-    "id": "12",
-    "name": "IU",
-    "image": "/images/artists/IU.jpg"
-  },
-  {
-    "id": "13",
-    "name": "Black-Pink",
-    "image": "/images/artists/Black-Pink.jpg"
-  },
-  {
-    "id": "14",
-    "name": "Adele",
-    "image": "/images/artists/Adele.jpg"
+    "name": "Inkonnu",
+    "image": "/images/artists/Inkonnu.jpeg"
   }
 ]
